@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E430B332B01FF5600A0DE45 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E430B322B01FF5600A0DE45 /* Bird.swift */; };
+		2E430B372B02036B00A0DE45 /* BirdListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E430B362B02036B00A0DE45 /* BirdListView.swift */; };
 		2ED5DDFA2B01FAB200070B8B /* BirdWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED5DDF92B01FAB200070B8B /* BirdWatchApp.swift */; };
 		2ED5DDFC2B01FAB200070B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED5DDFB2B01FAB200070B8B /* ContentView.swift */; };
 		2ED5DDFE2B01FAB400070B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED5DDFD2B01FAB400070B8B /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		2E430B322B01FF5600A0DE45 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		2E430B362B02036B00A0DE45 /* BirdListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListView.swift; sourceTree = "<group>"; };
 		2ED5DDF62B01FAB200070B8B /* BirdWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED5DDF92B01FAB200070B8B /* BirdWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdWatchApp.swift; sourceTree = "<group>"; };
 		2ED5DDFB2B01FAB200070B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				2E430B322B01FF5600A0DE45 /* Bird.swift */,
+				2E430B362B02036B00A0DE45 /* BirdListView.swift */,
 				2ED5DDF92B01FAB200070B8B /* BirdWatchApp.swift */,
 				2ED5DDFB2B01FAB200070B8B /* ContentView.swift */,
 				2ED5DDFD2B01FAB400070B8B /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED5DDFC2B01FAB200070B8B /* ContentView.swift in Sources */,
+				2E430B372B02036B00A0DE45 /* BirdListView.swift in Sources */,
 				2E430B332B01FF5600A0DE45 /* Bird.swift in Sources */,
 				2ED5DDFA2B01FAB200070B8B /* BirdWatchApp.swift in Sources */,
 			);
