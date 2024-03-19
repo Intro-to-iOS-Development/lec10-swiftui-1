@@ -10,17 +10,23 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
+        List(birds, id: \.self) { bird in
+            birdInfoRow(bird)
+        }
+    }
+
+    private func birdInfoRow(_ bird: Bird) -> some View {
         HStack {
-            Text("7")
+            Text(String(bird.count))
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding(.trailing, 30)
 
             VStack(alignment: .leading) {
-                Text("Vin")
+                Text(bird.name)
                     .fontWeight(.bold)
 
-                Text("Texas")
+                Text(bird.location)
                     .fontWeight(.medium)
                     .italic()
             }
@@ -28,7 +34,7 @@ struct ContentView: View {
 
             Spacer()
 
-            Image("vin")
+            Image(bird.image)
                 .resizable()
                 .frame(width: 100, height: 100)
         }
